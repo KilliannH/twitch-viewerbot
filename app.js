@@ -1,6 +1,6 @@
 import { spawn } from 'node:child_process';
 
-const botCount = 10;
+const botCount = 1;
 let pr;
 for(let i = 0; i < botCount; i++) {
     pr = spawn('node', ['subprocess']);

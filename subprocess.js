@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer-extra';
+import puppeteer from 'puppeteer';
 import 'dotenv/config'
 
 const twitchBaseUrl = process.env.TWITCH_BASE_URL;
