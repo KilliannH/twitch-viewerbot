@@ -1,0 +1,19 @@
+{
+  "name": "twitch-viewerbot",
+  "version": "1.0.0",
+  "description": "A viewer bot using puppeteer",
+  "main": "app",
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KilliannH",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
